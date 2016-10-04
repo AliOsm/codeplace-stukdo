@@ -49,6 +49,9 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.2)
+    auto_html (1.6.4)
+      redcarpet (~> 3.1)
+      rinku (~> 1.5.0)
     bcrypt (3.1.11)
     builder (3.2.2)
     byebug (9.0.6)
@@ -141,8 +144,10 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    redcarpet (3.3.4)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
+    rinku (1.5.1)
     sass (3.4.22)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -191,6 +196,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  auto_html (~> 1.6)
   byebug
   coffee-rails (~> 4.2)
   devise
